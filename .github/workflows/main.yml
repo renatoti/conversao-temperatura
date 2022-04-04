@@ -28,8 +28,8 @@ jobs:
           file: ./src/Dockerfile
           push: true
           tags: |
-            renatoti/rotten-potatoes:latest
-            renatoti/rotten-potatoes:${{ github.run_number }}
+            renatoti/conversao-temperatura:latest
+            renatoti/conversao-temperatura:${{ github.run_number }}
             
   CD:
     runs-on: ubuntu-latest
